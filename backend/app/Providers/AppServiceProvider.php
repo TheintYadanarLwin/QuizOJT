@@ -14,6 +14,9 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->bind('App\Contracts\Services\IqTestServiceInterface', 'App\Services\IqTestService');
+        $this->app->bind('App\Contracts\Dao\IqTestDaoInterface', 'App\Dao\IqTestDao');
+   
     }
 
     /**
