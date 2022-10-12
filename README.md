@@ -1,2 +1,2 @@
 # QuizOJT
-Laravel API and Nuxt JS using axios
+Laravel Sanctum Authentication with Nuxt js
